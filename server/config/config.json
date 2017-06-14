@@ -1,18 +1,10 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "kabayoka123",
-    "database": "bulletinboard",
+    "username": "your_user",
+    "password": "your_pass",
+    "database": "your_db_name",
     "host": "127.0.0.1",
-    "port": 8080,
-    "dialect": "postgres"
-  },
-  "test": {
-    "username": "postgres",
-    "password": "kabayoka123",
-    "database": "bulletinboard-test",
-    "host": "127.0.0.1",
-    "port": 8080,
+    "port": postgres_server_portnumber,
     "dialect": "postgres"
   }
 }
